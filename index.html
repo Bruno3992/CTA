@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CTA - Central de Trabalhos Acadêmicos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>CTA</h1>
+                <p>Central de Trabalhos Acadêmicos</p>
+            </div>
+            <div class="menu">
+                <input type="text" id="search-input" placeholder="Pesquise aqui...">
+                <button onclick="searchTCC()">Buscar</button>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Central de Trabalhos Acadêmicos - CTA</h2>
+    </section>
+
+    <section class="recent-tccs">
+        <h3>Adicionados Recentemente</h3>
+        <div class="tcc-list" id="tcc-list">
+            <!-- Os TCCs serão gerados aqui via JavaScript -->
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
